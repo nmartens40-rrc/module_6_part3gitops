@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: studentportfolio
-  labels:
-    app: studentportfolio
+    name: studentportfolio
+    labels:
+        app: studentportfolio
 spec:
-  selector:
-    app: studentportfolio
-  ports:
-    - name: http
-      port: 80
-      targetPort: http
-  type: ClusterIP
+    selector:
+        app: studentportfolio
+    ports:
+        - name: http
+          port: 80
+          targetPort: http
+    type: ClusterIP

@@ -19,7 +19,7 @@ spec:
                 - name: ghcr-creds
             containers:
                 - name: transactions
-                  image: ghcr.io/nmartens40-rrc/DDOE-Assignment-6-transactions:latest
+                  image: ghcr.io/nmartens40-rrc/ddoe-assignment-6-transactions:4ffdff684140976965871011289b21856464fcfe
                   imagePullPolicy: IfNotPresent
                   ports:
                       - name: http
