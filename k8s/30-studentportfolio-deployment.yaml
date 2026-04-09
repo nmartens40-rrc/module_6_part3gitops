@@ -19,7 +19,7 @@ spec:
                 - name: ghcr-creds
             containers:
                 - name: studentportfolio
-                  image: ghcr.io/nmartens40-rrc/ddoe-assignment-6-studentportfolio:6b369e172559e2a504edff700b6b3fb6b2c2ca48
+                  image: ghcr.io/nmartens40-rrc/ddoe-assignment-6-studentportfolio:876835e222b7990a33dd740d8d4762b1848c441f
                   imagePullPolicy: IfNotPresent
                   ports:
                       - name: http
